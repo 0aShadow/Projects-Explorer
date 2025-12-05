@@ -7,7 +7,7 @@
   "publisher": "only-a-shadow",
   "repository": {
     "type": "git",
-    "url": "https://github.com/0aShadow/vscode-project-manager"
+    "url": "git+https://github.com/0aShadow/vscode-project-manager.git"
   },
   "engines": {
     "vscode": "^1.80.0"
@@ -93,7 +93,9 @@
       "properties": {
         "projectsExplorer.rootPaths": {
           "type": "array",
-          "items": { "type": "string" },
+          "items": {
+            "type": "string"
+          },
           "default": [],
           "markdownDescription": "%projectsExplorer.configuration.rootPaths.description%"
         },
@@ -104,8 +106,15 @@
         },
         "projectsExplorer.ignore": {
           "type": "array",
-          "items": { "type": "string" },
-          "default": ["node_modules", ".git", ".vscode", ".idea"],
+          "items": {
+            "type": "string"
+          },
+          "default": [
+            "node_modules",
+            ".git",
+            ".vscode",
+            ".idea"
+          ],
           "markdownDescription": "%projectsExplorer.configuration.ignore.description%"
         },
         "projectsExplorer.openInNewWindowByDefault": {
@@ -127,5 +136,14 @@
     "@types/vscode": "^1.80.0",
     "typescript": "^5.3.0"
   },
-  "l10n": "./lang"
+  "l10n": "./lang",
+  "dependencies": {
+    "undici-types": "^5.26.5"
+  },
+  "author": "only-a-shadow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0aShadow/vscode-project-manager/issues"
+  },
+  "homepage": "https://github.com/0aShadow/vscode-project-manager#readme"
 }

@@ -5,7 +5,7 @@ import * as path from 'path';
 const STATE_KEY = 'projectsExplorer.categoryMap';
 
 // Default message used as key for the undefined category label.
-const UNDEFINED_CAT_MESSAGE = 'Uncategorized';
+const UNDEFINED_CAT_MESSAGE = vscode.l10n.t('Uncategorized');
 function getUndefinedCategoryLabel(): string {
   return vscode.l10n.t(UNDEFINED_CAT_MESSAGE);
 }
