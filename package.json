@@ -4,7 +4,7 @@
   "icon": "resources/icon.png",
   "description": "%projectsExplorer.description%",
   "version": "0.1.0",
-  "publisher": "only-a-shadow",
+  "publisher": "OnlyaShadow",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/0aShadow/vscode-project-manager.git"
