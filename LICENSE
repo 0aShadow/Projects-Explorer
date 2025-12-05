@@ -1,0 +1,44 @@
+Non-Commercial License (NCL)
+
+Copyright (c) 2025 Only_a_Shadow
+Source Repository: https://github.com/0aShadow/vscode-project-manager
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the “Software”), to use, copy,
+modify, merge, publish, distribute, and create derivative works of the Software,
+under the following conditions:
+
+1. Non-Commercial Use Only
+   The Software and any derivative works may NOT be used for any commercial
+   purpose. This includes, without limitation:
+   - selling the Software or derivative works,
+   - offering the Software or derivative works as part of a paid product or service,
+   - using the Software or derivative works in a commercial environment where
+     revenue is generated in any form.
+
+2. Mandatory Attribution
+   Any use, distribution, modification, or publication of the Software or any
+   derivative work MUST clearly and visibly credit the original author and
+   source repository as follows:
+
+     Original Author: Only_a_Shadow
+     Source: https://github.com/0aShadow/vscode-project-manager
+
+   This attribution requirement applies to all copies, substantial portions,
+   modified versions, and derivative works of the Software.
+
+3. No Additional Restrictions
+   You may not impose any additional legal terms, licenses, or technological
+   restrictions that would limit others from exercising the rights granted
+   under this license.
+
+4. Preservation of License
+   This license text must be included verbatim in all copies or substantial
+   portions of the Software, including derivative works.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

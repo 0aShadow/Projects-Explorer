@@ -1,0 +1,15 @@
+{
+  "Set \"projectsExplorer.rootPaths\" (or legacy \"rootPath\") to at least one existing folder.": "Set \"projectsExplorer.rootPaths\" (or legacy \"rootPath\") to at least one existing folder.",
+  "Uncategorized": "Uncategorized",
+  "Choose category": "Choose category",
+  "Create new category…": "Create new category…",
+  "Create a new category": "Create a new category",
+  "New category:": "New category:",
+  "Please enter a name": "Please enter a name",
+  "current": "current",
+  "Open in New Window by Default: ON": "Open in New Window by Default: ON",
+  "Open in New Window by Default: OFF": "Open in New Window by Default: OFF",
+  "Select project": "Select project",
+  "Open Project": "Open Project",
+  "Open Project in New Window": "Open Project in New Window"
+}

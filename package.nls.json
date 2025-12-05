@@ -1,0 +1,15 @@
+{
+  "projectsExplorer.displayName": "Project Explorer",
+  "projectsExplorer.description": "List subfolders from one or more root directories and open them like workspaces.",
+  "projectsExplorer.viewContainer.title": "Projects",
+  "projectsExplorer.view.title": "Projects",
+  "projectsExplorer.command.openProject": "Projects: Open Project",
+  "projectsExplorer.command.openProjectInNewWindow": "Projects: Open Project in New Window",
+  "projectsExplorer.command.refresh": "Projects: Refresh List",
+  "projectsExplorer.command.moveToCategory": "Projects: Move to Category...",
+  "projectsExplorer.configuration.title": "Project Explorer",
+  "projectsExplorer.configuration.rootPaths.description": "List of absolute folder paths whose direct subfolders are shown as projects. In the settings UI you can use “Add Item” to add more paths.",
+  "projectsExplorer.configuration.requireGit.description": "Only show folders that contain a `.git` directory.",
+  "projectsExplorer.configuration.ignore.description": "List of folder names that should be ignored.",
+  "projectsExplorer.configuration.openInNewWindow.description": "If true, a left click opens the project in a new VS Code window."
+}

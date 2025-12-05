@@ -1,0 +1,15 @@
+{
+  "projectsExplorer.displayName": "Projects Explorer",
+  "projectsExplorer.description": "Listet Unterordner eines oder mehrerer Stammverzeichnisse und öffnet sie wie Arbeitsbereiche.",
+  "projectsExplorer.viewContainer.title": "Projekte",
+  "projectsExplorer.view.title": "Projekte",
+  "projectsExplorer.command.openProject": "Projekte: Projekt öffnen",
+  "projectsExplorer.command.openProjectInNewWindow": "Projekte: Projekt in neuem Fenster öffnen",
+  "projectsExplorer.command.refresh": "Projekte: Liste aktualisieren",
+  "projectsExplorer.command.moveToCategory": "Projekte: In Kategorie verschieben...",
+  "projectsExplorer.configuration.title": "Projects Explorer",
+  "projectsExplorer.configuration.rootPaths.description": "Liste absoluter Ordnerpfade, deren direkte Unterordner als Projekte angezeigt werden. In der Settings-UI kannst du über „Add Item“ weitere Pfade hinzufügen.",
+  "projectsExplorer.configuration.requireGit.description": "Nur Ordner anzeigen, die ein `.git`-Verzeichnis enthalten.",
+  "projectsExplorer.configuration.ignore.description": "Liste von Ordnernamen, die ignoriert werden sollen.",
+  "projectsExplorer.configuration.openInNewWindow.description": "Wenn true, öffnet ein Linksklick das Projekt in einem neuen VS Code Fenster."
+}

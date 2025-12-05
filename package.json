@@ -1,0 +1,131 @@
+{
+  "name": "projects-explorer",
+  "displayName": "%projectsExplorer.displayName%",
+  "icon": "resources/icon.png",
+  "description": "%projectsExplorer.description%",
+  "version": "0.1.0",
+  "publisher": "only-a-shadow",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0aShadow/vscode-project-manager"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onView:projectsExplorer",
+    "onCommand:projectsExplorer.openProject",
+    "onCommand:projectsExplorer.openProjectInNewWindow",
+    "onCommand:projectsExplorer.addProjectToWorkspace",
+    "onCommand:projectsExplorer.refresh",
+    "onCommand:projectsExplorer.toggleOpenInNewWindow",
+    "onCommand:projectsExplorer.moveToCategory"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "projectsExplorerContainer",
+          "title": "%projectsExplorer.viewContainer.title%",
+          "icon": "resources/icon_mono.svg"
+        }
+      ]
+    },
+    "views": {
+      "projectsExplorerContainer": [
+        {
+          "id": "projectsExplorer",
+          "name": "%projectsExplorer.view.title%",
+          "icon": "resources/icon_mono.svg"
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "projectsExplorer.openProject",
+        "title": "%projectsExplorer.command.openProject%"
+      },
+      {
+        "command": "projectsExplorer.openProjectInNewWindow",
+        "title": "%projectsExplorer.command.openProjectInNewWindow%"
+      },
+      {
+        "command": "projectsExplorer.refresh",
+        "title": "%projectsExplorer.command.refresh%"
+      },
+      {
+        "command": "projectsExplorer.moveToCategory",
+        "title": "%projectsExplorer.command.moveToCategory%"
+      }
+    ],
+    "menus": {
+      "view/item/context": [
+        {
+          "command": "projectsExplorer.openProject",
+          "when": "view == projectsExplorer && viewItem == project",
+          "group": "navigation@1"
+        },
+        {
+          "command": "projectsExplorer.openProjectInNewWindow",
+          "when": "view == projectsExplorer && viewItem == project",
+          "group": "navigation@2"
+        },
+        {
+          "command": "projectsExplorer.moveToCategory",
+          "when": "view == projectsExplorer && viewItem == project",
+          "group": "2_modification@1"
+        }
+      ],
+      "view/title": [
+        {
+          "command": "projectsExplorer.refresh",
+          "when": "view == projectsExplorer",
+          "group": "navigation"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "%projectsExplorer.configuration.title%",
+      "properties": {
+        "projectsExplorer.rootPaths": {
+          "type": "array",
+          "items": { "type": "string" },
+          "default": [],
+          "markdownDescription": "%projectsExplorer.configuration.rootPaths.description%"
+        },
+        "projectsExplorer.requireGit": {
+          "type": "boolean",
+          "default": false,
+          "markdownDescription": "%projectsExplorer.configuration.requireGit.description%"
+        },
+        "projectsExplorer.ignore": {
+          "type": "array",
+          "items": { "type": "string" },
+          "default": ["node_modules", ".git", ".vscode", ".idea"],
+          "markdownDescription": "%projectsExplorer.configuration.ignore.description%"
+        },
+        "projectsExplorer.openInNewWindowByDefault": {
+          "type": "boolean",
+          "default": true,
+          "markdownDescription": "%projectsExplorer.configuration.openInNewWindow.description%"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p .",
+    "watch": "tsc -w -p .",
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@types/node": "^18.19.0",
+    "@types/vscode": "^1.80.0",
+    "typescript": "^5.3.0"
+  },
+  "l10n": "./lang"
+}
