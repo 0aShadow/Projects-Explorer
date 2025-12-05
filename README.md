@@ -1,4 +1,4 @@
-# Project Manager
+# Projects Explorer
 ## Development Setup
 ### 1. Install Dependencies
 ```sh
